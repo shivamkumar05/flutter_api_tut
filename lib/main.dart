@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_api_tut/screen/example2.dart';
 import 'package:flutter_api_tut/screen/example_three.dart';
+import 'package:flutter_api_tut/screen/example_threep2.dart';
 import 'screen/home_screen.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: ExampleThree(),
+      home: ExampleThreeP2(),
     );
   }
 }
